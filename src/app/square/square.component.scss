@@ -1,0 +1,15 @@
+button {
+  width: 100%;
+  height: 100%;
+  font-size: 5em !important;
+  border: transparent;
+  background-color: #a752643b;
+  color: #ec7263;
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+}

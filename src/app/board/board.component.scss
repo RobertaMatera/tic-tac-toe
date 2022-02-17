@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+
+main {
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  grid-gap: 0px;
+}
+
+.bg-square {
+  object-fit: contain;
+  background-color: #febe7e;
+  padding: 80px;
+  border-radius: 50px;
+}
+
+.box-shadow {
+  box-shadow: 1px -1px 16px 7px rgba(222, 215, 215, 0.75);
+  -webkit-box-shadow: 1px -1px 16px 7px rgba(222, 215, 215, 0.75);
+  -moz-box-shadow: 1px -1px 16px 7px rgba(222, 215, 215, 0.75);
+}
+
+.cells-box-shadow {
+  box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px -1px 16px -4px rgba(0, 0, 0, 0.15);
+}
+
+h2,
+h3 {
+  font-family: "Comfortaa", cursive;
+  color: #57385c;
+}
+
+.button-text {
+  font-family: "Comfortaa", cursive;
+  color: #57385c;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ec7263;
+  background-color: #ec7363b7;
+}
+
+.button-text:hover {
+  cursor: pointer;
+  color: #ec7263;
+  background-color: #57385c;
+}

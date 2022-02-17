@@ -1,1 +1,15 @@
-<p>board works!</p>
+<div class="bg-square box-shadow">
+  <h2>Current Player: {{ player }}</h2>
+
+  <button class="button-text" (click)="newGame()">Start new Game</button>
+
+  <h3 *ngIf="winner">Player {{ winner }} won the game!</h3>
+
+  <main class="cells-box-shadow">
+    <app-square
+      *ngFor="let square of squares; let i = index"
+      [value]="square"
+      (click)="makeMove(i)"
+    ></app-square>
+  </main>
+</div>
