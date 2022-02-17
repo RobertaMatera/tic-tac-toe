@@ -4,10 +4,12 @@ main {
   display: grid;
   grid-template-columns: 200px 200px 200px;
   grid-gap: 0px;
+  border: 1px solid #57385c5d;
+  border-radius: 5px;
 }
 
 .bg-square {
-  background-color: #febe7e;
+  background-color: #febe7e0c;
   padding: 80px;
   border-radius: 50px;
 }
@@ -51,4 +53,9 @@ h3 {
 .square {
   width: 200px;
   height: 94px;
+  border: 0.5px solid rgba(0, 0, 0, 0.055);
+}
+
+.text-center {
+  text-align: center;
 }
