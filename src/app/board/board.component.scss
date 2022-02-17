@@ -7,7 +7,6 @@ main {
 }
 
 .bg-square {
-  object-fit: contain;
   background-color: #febe7e;
   padding: 80px;
   border-radius: 50px;
@@ -47,4 +46,9 @@ h3 {
   cursor: pointer;
   color: #ec7263;
   background-color: #57385c;
+}
+
+.square {
+  width: 200px;
+  height: 94px;
 }
